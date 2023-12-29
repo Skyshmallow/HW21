@@ -1,0 +1,46 @@
+<!-- templates/channels.html -->
+{% extends "base.html" %}
+
+{% block content %}
+
+<header class="border-bottom">
+    <nav class="navbar navbar-expand-sm bg-body-tertiary px-lg-5">
+        <div class="container-fluid">
+          <img src="https://vectorified.com/images/cool-profile-icon-26.jpg" alt="icon" class="me-3" style="width: 60px;">
+          <h1 class="navbar-brand mt-2">Anonite</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            
+            <div class="d-flex gap-3 flex-sm-row flex-column mt-sm-0 mt-3 ms-auto">
+                <!-- Кнопка для перехода на страницу каналов -->
+                <a href="/home" class="btn btn-primary">Main page</a>
+
+    <!-- Ваш код HTML -->
+    <button id="logoutButton" class="btn btn-danger text-right">Exit</button>
+            </div>
+          </div>
+        </div>
+    </nav>
+</header>
+
+<div class="header-home d-flex justify-content-between">
+    <!-- Кнопка для перехода на домашнюю страницу -->
+    
+
+    <!-- Ваш код HTML -->
+    <!-- <button id="logoutButton" class="btn btn-danger text-right">Exit</button> -->
+
+</div>
+<div class="text-center main-content">
+    
+    <h1>Channels:</h1>
+
+    <!-- Контейнер для отображения каналов -->
+    <ul id="channels-list" class="list-unstyled">
+        <!-- Каналы будут отображены здесь -->
+      
+    </ul>
+</div>
+{% endblock %}

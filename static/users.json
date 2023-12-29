@@ -1,0 +1,26 @@
+[
+  {
+    "id": 4,
+    "email": "admin@gmail.com",
+    "password": "scrypt:32768:8:1$1Wl2dbEnMOwZ6hEH$0bb373c9e62b6057bd437b82547f96465518b52e30123e246219e19a06f8ef95884adee2e574546d69d66269f131345465038355ba35afd675947947908034a7",
+    "role": "admin"
+  },
+  {
+    "id": "fee2a492-bb04-4406-a505-f5bd58703a4e",
+    "email": "arsen801777@gmail.com",
+    "password": "scrypt:32768:8:1$Cdqy4k9vw3VgSljP$306863abb0b3c93a7a2e87a06827fac894277c5d98d51ce16999a40e8dd806708c0ddbcc25898f4d538807cb35f86fb5a7bee24c20e0673c72302ffb7f61cecb",
+    "role": "user"
+  },
+  {
+    "id": "a8547942-f158-42a9-9f76-b2326ce8fb5c",
+    "email": "kakaha@gmail.com",
+    "password": "scrypt:32768:8:1$GveEsuYMvpIe1bwz$0423ecfc630e310b7795dad74946dd5f5b2b2199e23b39e4fe72b1856733d1884ff9f08bbad69e42969e06cd3b6f7b47b65566ea12d16e9668b9175e02a48142",
+    "role": "user"
+  },
+  {
+    "id": "353dee15-97a1-4c61-8bb9-17877f456ce4",
+    "email": "zhazha@gmail.com",
+    "password": "scrypt:32768:8:1$Gh6m0VWgaNcsECh8$065b8040528aaf61f2d0a7e1890cc40b0a736b357d826d3b227f22a7ef714b9a3a1e960a2b262d3ab1597e200f9c688d9168810e2bcf7334de25d6e9615f42b7",
+    "role": "user"
+  }
+]

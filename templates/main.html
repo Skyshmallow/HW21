@@ -1,0 +1,91 @@
+<!-- templates/main.html -->
+{% extends "base.html" %}
+
+{% block content %}
+
+<header class="border-bottom">
+    <nav class="navbar navbar-expand-sm bg-body-tertiary px-lg-5">
+        <div class="container-fluid">
+          <img src="https://vectorified.com/images/cool-profile-icon-26.jpg" alt="icon" class="me-3" style="width: 60px;">
+          <h1 class="navbar-brand mt-2">Anonite</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            
+            <div class="d-flex gap-3 flex-sm-row flex-column mt-sm-0 mt-3 ms-auto">
+                <!-- Кнопка для перехода на страницу каналов -->
+    <!-- Модальная кнопка входа в систему -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+        Sign in
+    </button>
+
+    <!-- Модальная кнопка регистрации -->
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#registrationModal">
+        Sign up
+    </button>
+            </div>
+          </div>
+        </div>
+    </nav>
+</header>
+
+<div class="text-center main-text d-flex flex-column align-items-center">
+    <h1>Welcome adventurer!</h1>
+    <img src="https://i.imgflip.com/8aqtzo.jpg" title="made at imgflip.com"/>
+
+    
+
+    <!-- Модальный вход в систему -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Enter to your account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Форма входа -->
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="loginEmail" required placeholder="your@email.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Password:</label>
+                            <input type="password" class="form-control" id="loginPassword" required placeholder="password">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="login()">Sign in</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Модальная регистрация -->
+    <div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registrationModalLabel">Create account</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Форма регистрации -->
+                    <form id="registrationForm">
+                        <div class="mb-3">
+                            <label for="regEmail" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="regEmail" required placeholder="your@email.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="regPassword" class="form-label">Password:</label>
+                            <input type="password" class="form-control" id="regPassword" required placeholder="password">
+                        </div>
+                        <button type="button" class="btn btn-success" onclick="register()">Create</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

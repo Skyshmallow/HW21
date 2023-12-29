@@ -1,0 +1,50 @@
+{
+    "channel1": {
+        "id": "channel1",
+        "name": "Kinopoisk",
+        "posts": [
+            {
+                "title": "Avatar remake",
+                "content": "Still better than Shyamalan!",
+                "timestamp": "2023-12-27T12:00:00.000Z"
+            },
+            {
+                "title": "Kazakh Dastur film",
+                "content": "Dastur film became very popular among post soviet union countries",
+                "timestamp": "2023-12-27T12:30:00.000Z"
+            }
+        ]
+    },
+    "channel2": {
+        "id": "channel2",
+        "name": "Orel and Reshka",
+        "posts": [
+            {
+                "title": "Explore Beautiful Balivia with Anton Bednyakov",
+                "content": "I will never forget this place, till my last breath",
+                "timestamp": "2023-12-27T13:00:00.000Z"
+            },
+            {
+                "title": "Travel Tips and Tricks",
+                "content": "Make the most of your next adventure with these tips.",
+                "timestamp": "2023-12-27T13:30:00.000Z"
+            }
+        ]
+    },
+    "channel3": {
+        "id": "channel3",
+        "name": "Nostalgia Critic",
+        "posts": [
+            {
+                "title": "Era of Remakes",
+                "content": "Is it good or not?. Can we give a try to disney?",
+                "timestamp": "2023-12-27T14:00:00.000Z"
+            },
+            {
+                "title": "Home alone 2",
+                "content": "Feast for your eyes, still watching in every christmass",
+                "timestamp": "2023-12-27T14:30:00.000Z"
+            }
+        ]
+    }
+}
